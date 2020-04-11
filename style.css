@@ -2,17 +2,21 @@ body {
 	margin: 0;
 	display: flex;
 	justify-content: center;
+	background-color: grey;
 }
 
 #tipCalculator {
 	display: flex;
 	flex-direction: column;
+	background-color: lightblue;
+	margin-top: 100px;
+	border-radius: 10px;
 }
 
 .text {
 	text-align: center;
 	align-self: center;
-	margin-bottom: 10px;
+	margin: 10px 20px 10px 20px;
 }
 
 .input {
