@@ -5,7 +5,16 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	
+	<div id="tipCalculator">
+		<h1 class="text">Tip Calculator</h1>
+		<h2 class="text">What is your subtotal?</h2>
+		<input type="text" id="sub" class="input">
+		<h2 class="text">What percentage would you like to tip?</h2>
+		<input type="text" id="percentage" class="input">
+		<button type="submit" id="calcButton" class="input" onclick="tipCalculator();">Calculate!</button>
+		<h2 id="final" class="text">Final Total</h2>
+		<p id="total" class="text"></p>
+	</div>
 	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
