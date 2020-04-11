@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+#tipCalculator {
+	display: flex;
+	flex-direction: column;
+}
+
+.text {
+	text-align: center;
+	align-self: center;
+	margin-bottom: 10px;
+}
+
+.input {
+	max-width: 100px;
+	margin: 10px auto 20px auto;
+}
+
+#calcButton {
+	max-width: 200px;
+	font-size: 1.75rem;
+	margin-top: 20px;
+}
+
+#final {
+	font-size: 2rem;
+	margin-top: 50px;
+	visibility: hidden;
+}
+
+#total {
+	font-size: 2rem;
+	max-width: 200px;
+	margin-top: 0px;
+}
